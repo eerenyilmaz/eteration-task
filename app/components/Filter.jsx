@@ -112,6 +112,7 @@ export default function Filter() {
             var uniqueModelFilteredResponse = [...new Set(modelFilteredResponse)];
             setModelFilter(uniqueModelFilteredResponse);
         }
+        return true;
     }
 
     function filterByValues(brandFilterValues, modelFilterValues) {
